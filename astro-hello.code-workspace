@@ -1,0 +1,15 @@
+{
+  "folders": [
+    {
+      "name": "pages",
+      "path": "./src/pages",
+    },
+    {
+      "name": "(root)",
+      "path": "./",
+    },
+  ],
+  "extensions": {
+    "recommendations": ["astro-build.astro-vscode", "esbenp.prettier-vscode"],
+  },
+}
