@@ -1,14 +1,36 @@
 {
   "folders": [
     {
-      "name": "pages",
-      "path": "./src/pages",
+      "name": "src",
+      "path": "./src",
     },
     {
       "name": "(root)",
       "path": "./",
     },
   ],
+  "settings": {
+    "typescript.format.enable": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[astro]": {
+      "editor.defaultFormatter": "astro-build.astro-vscode",
+    },
+  },
   "extensions": {
     "recommendations": ["astro-build.astro-vscode", "esbenp.prettier-vscode"],
   },
