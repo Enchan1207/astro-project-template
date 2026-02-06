@@ -1,8 +1,8 @@
 {
   "folders": [
     {
-      "name": "pages",
-      "path": "./src/pages",
+      "name": "src",
+      "path": "./src",
     },
     {
       "name": "(root)",
