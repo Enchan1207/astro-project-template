@@ -19,6 +19,8 @@
     "esModuleInterop": true,
     "composite": true,
     "verbatimModuleSyntax": true,
+    // NOTE: shadcn/uiの一部のコンポーネントがこれに引っかかる
+    "exactOptionalPropertyTypes": false,
     "jsxImportSource": "react",
     "paths": {
       "src/*": ["./src/*"]
