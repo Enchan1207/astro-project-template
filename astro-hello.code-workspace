@@ -27,6 +27,9 @@
     "[typescriptreact]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode",
     },
+    "[astro]": {
+      "editor.defaultFormatter": "astro-build.astro-vscode",
+    },
   },
   "extensions": {
     "recommendations": ["astro-build.astro-vscode", "esbenp.prettier-vscode"],
