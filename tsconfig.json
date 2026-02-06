@@ -19,6 +19,10 @@
     "esModuleInterop": true,
     "composite": true,
     "verbatimModuleSyntax": true,
+    "compilerOptions": {
+      "jsx": "react-jsx",
+      "jsxImportSource": "react"
+    },
     "paths": {
       "src/*": ["./src/*"]
     }
