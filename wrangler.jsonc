@@ -1,0 +1,22 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "astro-hello",
+  "main": "dist/_worker.js/index.js",
+  "compatibility_date": "2025-11-25",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "assets": {
+    "binding": "ASSETS",
+    "directory": "./dist",
+  },
+  "preview_urls": false,
+  "workers_dev": false,
+  "observability": {
+    "enabled": true,
+  },
+  "routes": [
+    {
+      "pattern": "astro-hello.enchan.me",
+      "custom_domain": true,
+    },
+  ],
+}
