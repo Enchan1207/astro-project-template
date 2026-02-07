@@ -2,7 +2,7 @@
 
 ## project overview
 
-- purpose: research Astro framework and create static website
+- purpose: create static website with Astro
 - package manager: pnpm
 - language: TypeScript
 - frameworks:

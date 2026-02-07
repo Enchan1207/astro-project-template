@@ -1,7 +1,9 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "astro-hello",
+  // rename if needed
+  "name": "astro-project-template",
   "main": "dist/_worker.js/index.js",
+  // (optional) update
   "compatibility_date": "2025-11-25",
   "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
   "assets": {
@@ -15,7 +17,8 @@
   },
   "routes": [
     {
-      "pattern": "astro-hello.enchan.me",
+      // set your domain
+      "pattern": "astro-project-template.example.com",
       "custom_domain": true,
     },
   ],
