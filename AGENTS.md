@@ -13,6 +13,7 @@
 ## scripts
 
 - `pnpm dev`: run development server
+- `pnpm preview`: build and run server using wrangler CLI
 - `pnpm build`: build project
 - `pnpm prettier`: check format
 - `pnpm prettier:fix`: check and fix format
